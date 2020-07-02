@@ -28,17 +28,17 @@
 
 ### Установка приложения
 ```bash
-git clone git@github.com:Arkkav/wallet.git<br/>
-cd ./wallet<br/>
-python3 -m venv env<br/>
-./env/bin/activate<br/>
-pip3 install -r requirements.txt<br/>
+git clone git@github.com:Arkkav/wallet.git
+cd ./wallet
+python3 -m venv env
+./env/bin/activate
+pip3 install -r requirements.txt
 ```
 
 ### Запуск тестов
 ```bash
-pytest test_cmc.py::test_1 <br/>
-pytest test_cmc.py::test_2 <br/>
-pytest test_cmc.py::test_change_language <br/>
+pytest test_cmc.py::test_1
+pytest test_cmc.py::test_2
+pytest test_cmc.py::test_change_language
 ```
 
