@@ -28,7 +28,7 @@
 
 ### Установка приложения
 ```bash
-git clone git@github.com:Arkkav/wallet.git
+git clone git@github.com:Arkkav/test_coinmarketcap.git
 cd ./wallet
 python3 -m venv env
 ./env/bin/activate
