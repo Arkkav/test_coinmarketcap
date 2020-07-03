@@ -13,7 +13,7 @@ class MainPage(BasePage):
 			'ES': (3, "Capitalización de Mercado de Criptomoneda | CoinMarketCap"),
 			'FIL': (4, "Kapitalisasyon sa Market ng Cryptocurrency | CoinMarketCap"),
 			'FR': (5, "Capitalisations Marché Crypto-Monnaie | CoinMarketCap"),
-			# 'HI': (6, "क्रिप्टोकरेंसी मार्केट  पूंजीकरण  | CoinMarketCap"),
+			'HI': (6, "क्रिप्टोकरेंसी मार्केट पूंजीकरण | CoinMarketCap"),
 			'IT': (7, "Capitalizzazioni di mercato di criptovaluta | CoinMarketCap"),
 			'JA': (8, "仮想通貨の時価総額 | CoinMarketCap"),
 			'KO': (9, "암호화폐 시가총액 | CoinMarketCap"),
