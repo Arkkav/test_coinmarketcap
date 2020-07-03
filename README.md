@@ -26,6 +26,16 @@
 - test_cmc.py - модуль тестов
 - main_page.py, base_page.py - модули объектов тестируемых веб-страниц
 
+### Установка драйвера ChromeDriver для Linux
+Вместо ссылки ниже выберите нужную для вашей системы отсюда: https://sites.google.com/a/chromium.org/chromedriver/downloads
+```bash
+wget https://chromedriver.storage.googleapis.com/76.0.3809.126/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+sudo mv chromedriver /usr/local/bin/chromedriver
+sudo chown root:root /usr/local/bin/chromedriver
+sudo chmod +x /usr/local/bin/chromedriver
+```
+
 ### Установка приложения
 ```bash
 git clone git@github.com:Arkkav/test_coinmarketcap.git
