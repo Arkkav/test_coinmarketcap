@@ -38,10 +38,10 @@ sudo chmod +x /usr/local/bin/chromedriver
 
 ### Установка приложения
 ```bash
-git clone git@github.com:Arkkav/test_coinmarketcap.git
+git clone https://github.com/Arkkav/test_coinmarketcap.git
 cd ./qa_cmc
 python3 -m venv env
-./env/bin/activate
+. env/bin/activate
 pip3 install -r requirements.txt
 ```
 
